@@ -5,12 +5,14 @@
               android:layout_height="wrap_content"
               android:layout_marginLeft="10dp"
               android:layout_marginRight="10dp"
+                android:background="@color/colorBackground"
               android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:id="@+id/card_item"
             app:cardCornerRadius="4dp"
+            android:background="@color/colorCard"
             app:cardElevation="4dp"
             android:layout_marginTop="10dp"
             app:cardMaxElevation="4dp"
@@ -28,6 +30,7 @@
                     android:gravity="start"
                     android:text="@string/title"
                     android:id="@+id/tv_item_title"
+                    android:textColor="@color/textColors"
                     android:layout_height="wrap_content"/>
             <TextView
 
@@ -37,12 +40,14 @@
                     android:layout_marginBottom="4dp"
                     android:gravity="start"
                     android:text="@string/desc"
+                    android:textColor="@color/textColors"
                     android:textSize="16sp"
                    />
             <TextView
                     android:id="@+id/tv_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/textColors"
                     android:gravity="start"
                     android:text="@string/date"
                     android:textSize="10sp" />

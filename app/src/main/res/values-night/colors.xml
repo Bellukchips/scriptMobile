@@ -3,7 +3,7 @@
     <color name="colorPrimary">#242425</color>
     <color name="colorPrimaryDark">#242425</color>
     <color name="colorAccent">#FF9800</color>
-    <color name="colorBackground">#ffffff</color>
-    <color name="textColors">#242425</color>
-    <color name="colorCard">#FFFFFF</color>
+    <color name="colorBackground">#242425</color>
+    <color name="textColors">#FFFFFF</color>
+    <color name="colorCard">#242425</color>
 </resources>
